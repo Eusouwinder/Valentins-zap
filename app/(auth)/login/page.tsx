@@ -164,26 +164,26 @@ function LoginForm() {
       </div>
 
       {/* Footer */}
-      <p className="text-center text-[var(--ds-text-muted)] text-sm mt-6">
-        SmartZap © {new Date().getFullYear()} |{' '}
-        <a
-          href="https://www.escoladeautomacao.com.br/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-emerald-500 transition-colors"
-        >
-          Escola de Automação
-        </a>
-        {' '}| by{' '}
-        <a
-          href="https://instagram.com/thaleslaray"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-emerald-500 transition-colors"
-        >
-          @thaleslaray
-        </a>
-      </p>
+<p className="text-center text-[var(--ds-text-muted)] text-sm mt-6">
+  Valentins Digital © {new Date().getFullYear()} |{' '}
+  <a
+    href="https://blog.valentinsdigital.com.br"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-emerald-500 transition-colors"
+  >
+    Site
+  </a>
+  {' '}•{' '}
+  <a
+    href="https://www.instagram.com/valentinsdigital"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-emerald-500 transition-colors"
+  >
+    Instagram
+  </a>
+</p>
     </div>
   )
 }
